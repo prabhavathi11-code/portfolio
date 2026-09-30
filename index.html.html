@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prabhavathi Chirumala — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EAEFF6;--ink:#14213D;--mute:#4A5A78;--card:#FFFFFF;--line:#C9D3E3;--accent:#F2A900;--teal:#0F766E;--code:#14213D;--codeink:#E7ECF5;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1729;--ink:#EAF0FA;--mute:#9AA9C6;--card:#17233D;--line:#2A3A5C;--code:#0A1120;--codeink:#E7ECF5;--teal:#5EEAD4}}
+:root[data-theme="dark"]{--bg:#0F1729;--ink:#EAF0FA;--mute:#9AA9C6;--card:#17233D;--line:#2A3A5C;--code:#0A1120;--codeink:#E7ECF5;--teal:#5EEAD4}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+nav{display:flex;gap:22px;justify-content:flex-end;padding:22px 0;font-size:15px}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center;padding:40px 0 80px}
+h1{font-size:clamp(46px,8vw,92px);line-height:.95;letter-spacing:-.035em;font-weight:800;margin:0 0 22px}
+.role{font-size:20px;color:var(--mute);max-width:32ch;margin:0 0 28px}
+.btn{display:inline-block;padding:13px 22px;border-radius:999px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;margin-right:10px}
+.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.code{background:var(--code);color:var(--codeink);border-radius:14px;padding:22px 24px;font:14px/1.75 ui-monospace,"SF Mono",Menlo,Consolas,monospace;overflow-x:auto;animation:in .7s ease both}
+.code .m{color:var(--accent)}.code .k{color:#8FB4FF}.code .s{color:#7FE0B5}.code .c{color:#7A8AA8}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:32px;letter-spacing:-.02em;margin:0 0 26px;font-weight:800}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.skills div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.skills h3{margin:0 0 6px;font-size:18px}.skills p{margin:0;color:var(--mute);font-size:16px}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.slot{border:2px dashed var(--line);border-radius:12px;padding:26px;min-height:150px;color:var(--mute)}
+.slot strong{display:block;color:var(--ink);font-size:18px;margin-bottom:6px}
+.edu{max-width:60ch}.edu b{font-size:20px}
+footer{padding:56px 0 64px;border-top:1px solid var(--line)}
+footer p{max-width:44ch;color:var(--mute)}
+@media (max-width:760px){.hero{grid-template-columns:1fr;gap:32px}nav{justify-content:flex-start;flex-wrap:wrap}}
+@media (prefers-reduced-motion:reduce){.code{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<div>
+<h1>Prabhavathi Chirumala</h1>
+<p class="role">Full-stack developer in Hyderabad. I build with Python, React and SQL, and use AI tools to ship faster.</p>
+<a class="btn" href="mailto:chprabhavathi11@gmail.com">Email me</a>
+<a class="btn alt" href="https://www.linkedin.com/in/prabhavathichirumala-a52a9b329" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+<pre class="code" aria-label="Profile summary as an API response"><span class="m">GET</span> /api/developers/prabhavathi
+<span class="c">200 OK</span>
+{
+  <span class="k">"name"</span>: <span class="s">"Prabhavathi Chirumala"</span>,
+  <span class="k">"role"</span>: <span class="s">"Full-Stack Developer"</span>,
+  <span class="k">"location"</span>: <span class="s">"Hyderabad, India"</span>,
+  <span class="k">"backend"</span>: [<span class="s">"Python"</span>, <span class="s">"REST APIs"</span>, <span class="s">"SQL"</span>],
+  <span class="k">"frontend"</span>: [<span class="s">"React.js"</span>],
+  <span class="k">"tools"</span>: [<span class="s">"Git"</span>, <span class="s">"GitHub"</span>],
+  <span class="k">"open_to_work"</span>: <span class="s">true</span>
+}</pre>
+</header>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Python</h3><p>Backend logic, scripts and REST APIs.</p></div>
+<div><h3>React.js</h3><p>Interfaces that talk to those APIs.</p></div>
+<div><h3>SQL</h3><p>Designing and querying relational data.</p></div>
+<div><h3>Git &amp; GitHub</h3><p>Version control and collaboration.</p></div>
+<div><h3>AI-assisted development</h3><p>Using AI tools to prototype, debug and iterate.</p></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects">
+<div class="slot"><strong>Add your first project</strong>Name it, say what it does in one line, and link the GitHub repo.</div>
+<div class="slot"><strong>Add your second project</strong>Show a full-stack build: React front end, Python API, SQL database.</div>
+<div class="slot"><strong>Add your third project</strong>Include a live demo link if you have one.</div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<p class="edu"><b>St. Ann's College of Engineering and Technology</b><br>Chirala, Andhra Pradesh · 2022</p>
+</section>
+
+<footer id="contact">
+<h2>Contact</h2>
+<p>Hiring or want to collaborate? Send an email and I'll reply.</p>
+<a class="btn" href="mailto:chprabhavathi11@gmail.com">chprabhavathi11@gmail.com</a>
+</footer>
+</div>
+</body>
+</html>
