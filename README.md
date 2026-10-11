@@ -26,6 +26,7 @@ A modern, responsive, and performance-focused developer portfolio designed with 
 
 2. **[StockVision: Real-Time Analytics & Forecasting Dashboard](https://github.com/prabhavathi11-code/StockVision-Real-Time-Analytics-Forecasting-Dashboard)**
    - Financial intelligence platform built in Python with statistical time-series forecasting models and high-performance interactive visual charts.
+   - [Live Demo](https://prabhavathi11-code.github.io/StockVision-Real-Time-Analytics-Forecasting-Dashboard/)
 
 3. **[TaskPulse: Agile Workflow & Task Management Engine](https://github.com/prabhavathi11-code/django-taskpulse)**
    - Full-stack task management platform built in Django & Python with relational ORM database modeling, session authentication, and priority queues.
