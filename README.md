@@ -33,6 +33,7 @@ A modern, responsive, and performance-focused developer portfolio designed with 
 
 4. **[Deep Learning Poultry Pathology Classifier](https://github.com/prabhavathi11-code/Transfer-Learning-Based-Classification-of-Poultry-Diseases-for-Enhanced-Health-Management)**
    - Biomedical image classification model leveraging Deep Convolutional Neural Networks and Transfer Learning for automated disease detection.
+   - [Live Demo](https://prabhavathi11-code.github.io/Transfer-Learning-Based-Classification-of-Poultry-Diseases-for-Enhanced-Health-Management/)
 
 ---
 
