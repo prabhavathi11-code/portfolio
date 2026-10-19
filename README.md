@@ -7,7 +7,7 @@
 
 ---
 
-## 🌟 Overview
+## 🌟 Overview                                                                                                                                       
 
 A modern, responsive, and performance-focused developer portfolio designed with semantic HTML5 and vanilla CSS. Features include:
 - **Clean Responsive Design**: Optimized across mobile, tablet, and ultra-wide screens.
